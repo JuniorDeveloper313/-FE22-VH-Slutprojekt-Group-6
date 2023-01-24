@@ -243,6 +243,8 @@ input {
     flex-wrap: wrap;
     gap: 1rem;
     margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 90%;
     justify-content: space-between;
 }
@@ -289,6 +291,11 @@ input {
         height: calc(100vh + 768px);
     }
 
+    footer{
+        flex-direction: column;
+        padding: 4rem 0;
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 905px) {
