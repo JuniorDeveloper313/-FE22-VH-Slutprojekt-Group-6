@@ -18,6 +18,10 @@ a {
 ul {
     list-style: none;
 }
+.wrapper{
+    height: calc(100vh - 80px);
+
+}
 
 
 .about-del-top {
@@ -281,6 +285,9 @@ input {
     .card {
         width: 100%;
     }
+    .wrapper{
+        height: calc(100vh + 768px);
+    }
 
 }
 
@@ -288,5 +295,11 @@ input {
     .card {
         width: 45%;
     }
+
+    .wrapper{
+        height: calc(100vh + 80px);
+    }
+   
+
 
 }
